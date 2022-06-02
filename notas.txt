@@ -1,0 +1,26 @@
+buenas practicas en commit
+ - cambios
+ - id
+ - mensaje: resumen de lo que pasó/hizo. Ej: cambio color
+ feat: característica
+ doc: documentación
+ detalle sin tipo
+ fix: arreglo
+
+RAMAS
+git trabaja en paralelo, mientras cada uno trabaja en lo suyo
+es arbol porque cada linea de trabajo de desarrollo independientemente se llama RAMA y parten de la rama principal tronco
+
+crear ramas: 'git branch nombrerama'
+mover entre ramas: 'git checkout rama'
+cada rama tiene sus commits 
+git add -> mueve al staging area listo para hacer comiteado, se registra el cambio y vuelve al directorio de trabajo
+para desarrollar en paralelo
+'git config' 
+'git log' listado de los commit
+el estado del archivo será de la vista de rama última
+se bifurcan esperando que algún momento se vuelvan a unir > merge
+'git merge la-rama' se fusionan las ramas
+conflicto: cuando en dos ramas diferentes, el puntero siempre estará en el último commit, solo queda hacerlo manualmente, nano
+fast forward
+*crear rama y comitear
