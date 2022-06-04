@@ -1,0 +1,12 @@
+-------02/06/22--------
+fast forward: no se crea commit de merge, se da cuando a partir de la rama creada y no en el main
+git merge --no--ff rama 
+es buena práctica cuando se trabaja en equipo, control de versiones
+commits de control para rastrear commits
+cuando se modifica el mismo archivo en diferentes ramas al hacer merge > conflicto!
+que pasa si uno de ellos tiene prioridad? 
+solución: git merge -s theirs rama1, git merge -s ours rama-destino
+que significa remoto? -> remoto => nube, se puede trabajar
+pull request* = petición para ver cambios y realizar merge por el creador del repositorio
+*commit de merge, ours, theirs
+ 
