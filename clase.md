@@ -15,3 +15,6 @@ git pull (traer ramas, cambios etc)
 rama (objetivo)
 git pull origin rama1
 https://github.com/LuisRCbmo/ejercicio2
+
+-----
+se está modificando desde la rama2
