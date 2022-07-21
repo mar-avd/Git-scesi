@@ -46,3 +46,24 @@ Para crear listas ordenadas debes utilizar la sintaxis de tipo: «número.» 1.
         2. Elemento de lista 6
 
 ### **Codigo**
+envolver el texto entre dos comillas sencillas `. Esto se corresponde con la etiqueta HTML <code>. se ve: 
+`Esto es una línea de código`
+
+~~~
+Creando códigos de bloque.
+Puedes añadir tantas líneas y párrafos como quieras.  
+int a = 0;
+~~~
+
+### **Imagenes**
+Puedes mostrar una imagen si agregas ! y pones el texto alternativo entre [ ]. Entonces encierra el enlace de la imagen entre paréntesis ().
+
+![Esta es una imagen](https://myoctocat.com/assets/images/base-octocat.svg)
+
+para cambiar el tamaño de una imagen:
+<img src="https://myoctocat.com/assets/images/base-octocat.svg" alt="drawing" width="100"/>
+
+### **Reglas Horizontales**
+***
+---
+___
